@@ -1,8 +1,8 @@
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
 import { render, gallery } from './js/render';
-import ImagesApiServise from './images-service';
-import LoadMoreBtn from './load-more-btn';
+import ImagesApiServise from './js/images-service';
+import LoadMoreBtn from './js/load-more-btn';
 
 import './css/styles.css';
 import 'simplelightbox/dist/simple-lightbox.min.css';
