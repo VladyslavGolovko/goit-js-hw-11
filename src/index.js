@@ -55,7 +55,7 @@ async function fetchImages() {
     countOfImages();
     if (images.length === 0) {
       loadMoreBtn.hide();
-      Notiflix.Notify.info(
+      Notiflix.Notify.failure(
         'Sorry, there are no images matching your search query. Please try again.',
       );
       gallery.innerHTML = '';
