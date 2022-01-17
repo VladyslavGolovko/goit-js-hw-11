@@ -1,6 +1,6 @@
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
-import { render, gallery } from './render';
+import { render, gallery } from './js/render';
 import ImagesApiServise from './images-service';
 import LoadMoreBtn from './load-more-btn';
 
