@@ -33,9 +33,11 @@ body {
   text-decoration: none;
   color: inherit;
 }
+
 .photo-card :hover {
   cursor: pointer;
 }
+
 img {
   width: 100%;
   height: 80%;
@@ -63,9 +65,11 @@ img {
   outline: none;
   padding: 5px;
 }
+
 .search-form input:focus {
   border-color: green;
 }
+
 .search-form input::placeholder {
   font-size: 12px;
 }
@@ -110,6 +114,7 @@ button.is-hidden {
   background: #ddd;
   box-shadow: 0 1px rgba(0, 0, 0, 0.1) inset, 0 1px #fff;
 }
+
 .scroll-up:hover {
   cursor: pointer;
 }
@@ -129,15 +134,18 @@ button.is-hidden {
   background: #999;
   transform: rotate(315deg);
 }
+
 .scroll-up:before {
   left: 15%;
   transform: rotate(45deg);
 }
+
 .scroll-up:hover,
 .scroll-up:focus {
   background: green;
   box-shadow: none;
 }
+
 .scroll-up:hover:after,
 .scroll-up:hover:before {
   background: #fff;
